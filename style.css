@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cookie&family=Lobster&family=Parisienne&display=swap')
+body{
+   font-family: 'Parisienne', cursive
+}
+.navbar input[type='checkbox']
+.navbar .hamburger-line{
+    display: none;
+}
+
+
+.navbar {
+   width: 100%;
+   background-color: rgb(49, 146, 29);
+   display: flex;
+ }
+ .logo{
+    margin-left: 400px;
+    margin-right: 0px;
+    color: rgb(243, 237, 237);
+    font-size: 20px;
+    margin-top: 28px;
+   }
+ .logo1{
+    margin-top: -470px;
+    margin-left: 15px;
+ }
+
+ .logo1>h1{
+   margin-top: -142px;
+   margin-left: 3px;
+   color: rgb(255, 253, 248);
+   font-size: 28px;
+   margin-bottom: 161px;
+
+}
+ /* Navbar links */
+ .navbar a {
+   float: right;
+   text-align: top right;
+   padding: 10px;
+   color: white;
+   text-decoration: none;
+   font-size: 15px;
+ }
+ 
+ /* Navbar links on mouse-over */
+ .navbar a:hover {
+   background-color: rgb(41, 124, 16);
+ }
+ 
+ /* Current/active navbar link */
+ .active {
+   background-color: #04AA6D;
+ }
+ 
+ /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+ @media screen and (max-width: 600px) {
+   .navbar a {
+     float: none;
+     display: block;
+   }
+ }
+
+.showcase-area{
+    height: 50vh;
+    background:url("https://i0.wp.com/shoppeblack.us/wp-content/uploads/2019/02/AdobeStock_191057762.jpeg?w=1200&ssl=1");
+background-repeat:no-repeat;
+background-position-x: center;
+background-size: cover;
+}
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   
+}
+.hero, .h1{
+    font-size: 30px;
+    padding-left: 400px;
+    padding-right: 10px;
+   margin-top: 179spx;
+   margin-bottom: -81px;
+   font-family: 'Lobster';
+   border: hotpink;
+   border-color: grey;
+}
+.pic1>img{
+height: 300px;
+width: 400px;
+border-radius: 20px;
+}
+.pic2>img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+ }
+ .pic3>img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+ }
+ .pic4>img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+ }
+ .pic5>img{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: -1px;
+ }
+ .pic6>img{
+   height: 400px;
+   width: 400px;
+   border-radius: 20px;
+   margin-left: 8px;
+ }
+   .pic7>img{
+      height: 400px;
+      width: 428px;
+      border-radius: 20px;
+      display: table-row;
+      margin-left: 6px;
+ }
+ .design1{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     
+ }
+ .design2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .design3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .design4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .design5{
+    display: flex;
+ }
+ .text1, .p1{
+    justify-content: space-around;
+    font-size: large;
+    color: darkgreen;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-justify: distribute-all-lines;
+    border: rgb(3, 3, 3);
+    padding: 10px;
+ }
+ .text2, .p2{
+    justify-content: space-around;
+    font-size: large;
+    color: darkred;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-justify: distribute-all-lines;
+ }
+ .text3, .p3{
+    justify-content: space-around;
+    font-size: large;
+    color: orangered;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-justify: distribute-all-lines;
+ }
+ .design4, .p4{
+    justify-content: space-around;
+    font-size: large;
+    color: rgb(126, 20, 197);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-justify: distribute-all-lines;
+ }
+ .text5, .p5{
+    justify-content: space-around;
+    font-size: large;
+    color: rgb(197, 179, 20);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+ }
+ .PRODUCTS{
+    font-size: 47px;
+    margin-left: -1058px;
+    margin-right: 2px;
+
+ }
+ @import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i');
+body{
+  font-family: 'Muli', sans-serif;
+  background:rgb(189, 240, 240);
+}
+
+ .card1 {
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+   max-width: 231px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   background-color: rgb(219, 213, 155);
+   margin-left: -1194px;
+   margin-bottom: 1478px;
+   margin-top: -29px;
+ }
+ 
+ .price {
+   color: rgb(0, 0, 0);
+   font-size: 22px;
+ }
+ 
+ .card1 button {
+   border: none;
+   outline: 0;
+   padding: 12px;
+   color: white;
+   background-color: #000;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+ }
+ 
+ .card1 button:hover {
+   opacity: 0.7;
+ }
+
+ .card2 {
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+   max-width: 231px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   margin-left: -901px;
+   margin-bottom: 10px;
+   margin-top: -1875px;
+   background-color: rgb(219, 213, 155);
+ }
+ 
+ .price {
+   color: rgb(3, 3, 3);
+   font-size: 22px;
+ }
+ 
+ .card2 button {
+   border: none;
+   outline: 0;
+   padding: 12px;
+   color: white;
+   background-color: #000;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+ }
+ 
+ .card2 button:hover {
+   opacity: 0.7;
+ }
+
+ .card3 {
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+   max-width: 231px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   margin-left: -576px;
+   margin-bottom: 10px;
+   background-color: rgb(219, 213, 155);
+   margin-top: -411px;
+ }
+ 
+ .price {
+   color: rgb(10, 10, 10);
+   font-size: 22px;
+ }
+ 
+ .card3 button {
+   border: none;
+   outline: 0;
+   padding: 12px;
+   color: white;
+   background-color: #000;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+ }
+ 
+ .card3 button:hover {
+   opacity: 0.7;
+ }
+ .card4 {
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+   max-width: 231px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   margin-left: -251px;
+   margin-bottom: 10px;
+   background-color: rgb(219, 213, 155);
+   margin-top: -415px;
+ }
+ 
+ .price {
+   color: rgb(7, 7, 7);
+   font-size: 22px;
+ }
+ 
+ .card4 button {
+   border: none;
+   outline: 0;
+   padding: 12px;
+   color: white;
+   background-color: #000;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+ }
+ 
+ .card4 button:hover {
+   opacity: 0.7;
+ }
+ .card5 {
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+   max-width: 231px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   background-color: rgb(219, 213, 155);
+   margin-left: -1194px;
+   margin-bottom: 1478px;
+   margin-top: -3px;
+ }
+ 
+ .price {
+   color: rgb(10, 10, 10);
+   font-size: 22px;
+ }
+ 
+ .card5 button {
+   border: none;
+   outline: 0;
+   padding: 12px;
+   color: white;
+   background-color: #000;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+ }
+ 
+ .card5 button:hover {
+   opacity: 0.7;
+ }
+
+ .card6 {
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+   max-width: 231px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   margin-left: -901px;
+   margin-bottom: 10px;
+   margin-top: -1873px;
+   background-color: rgb(219, 213, 155);
+ }
+ 
+ .price {
+   color: grey;
+   font-size: 22px;
+ }
+ 
+ .card6 button {
+   border: none;
+   outline: 0;
+   padding: 12px;
+   color: white;
+   background-color: #000;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+ }
+ 
+ .card6 button:hover {
+   opacity: 0.7;
+ }
+
+ .card7 {
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+   max-width: 231px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   margin-left: -576px;
+   margin-bottom: 10px;
+   background-color:rgb(219, 213, 155);
+   margin-top: -414px;
+ }
+ 
+ .price {
+   color: rgb(0, 0, 0);
+   font-size: 22px;
+ }
+ 
+ .card7 button {
+   border: none;
+   outline: 0;
+   padding: 12px;
+   color: white;
+   background-color: #000;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+ }
+ 
+ .card7 button:hover {
+   opacity: 0.7;
+ }
+ .card8 {
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+   max-width: 231px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   margin-left: -251px;
+   margin-bottom: 82px;
+   background-color:rgb(219, 213, 155);
+   margin-top: -409px;
+ }
+ 
+ .price {
+   color: rgb(5, 0, 0);
+   font-size: 22px;
+ }
+ 
+ .card8 button {
+   border: none;
+   outline: 0;
+   padding: 12px;
+   color: white;
+   background-color: #000;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+ }
+
+ a {
+   text-decoration: none;
+   display: inline;
+   padding: 8px 58px;
+ }
+ 
+ a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ .previous {
+   background-color: #0c0c0c;
+   color: rgb(253, 252, 252);
+   margin-left: -827px;
+   margin-right: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+ }
+ 
+ .next {
+   background-color: #111111;
+   color: white;
+   margin-left: 49px;
+   margin-right: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+ }
+ 
+ .round {
+   border-radius: 50%;
+ }
+ 
+ .card8 button:hover {
+   opacity: 0.7;
+ }
+
+ /* Callout box - fixed position at the bottom of the page */
+.callout {
+   position: fixed;
+   bottom: 35px;
+   right: 20px;
+   margin-left: 20px;
+   max-width: 300px;
+ }
+ 
+ /* Callout header */
+ .callout-header {
+   padding: 25px 15px;
+   background: rgb(151, 175, 207);
+   font-size: 15px;
+   color: white;
+ }
+ 
+ /* Callout container/body */
+ .callout-container {
+   padding: 15px;
+   background-color: rgb(202, 215, 226);
+   color: black
+ }
+ 
+ /* Close button */
+ .closebtn {
+   position: absolute;
+   top: 5px;
+   right: 15px;
+   color: white;
+   font-size: 30px;
+   cursor: pointer;
+ }
+ 
+ /* Change color on mouse-over */
+ .closebtn:hover {
+   color: rgb(230, 203, 203);
+ }
+
+
+
+ .flip-card1 {
+   background-color: transparent;
+   width: 300px;
+   height: 200px;
+   border: 5px solid #f1f1f1;
+   margin-top: 169px;
+   margin-left: -1197px;
+   margin-bottom: 10px;
+   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+ }
+ 
+ /* This container is needed to position the front and back side */
+ .flip-card-inner1 {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+ }
+ 
+ /* Do an horizontal flip when you move the mouse over the flip box container */
+ .flip-card1:hover .flip-card-inner1 {
+   transform: rotateY(180deg);
+ }
+ 
+ /* Position the front and back side */
+ .flip-card-front1, .flip-card-back1 {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   -webkit-backface-visibility: hidden; /* Safari */
+   backface-visibility: hidden;
+ }
+ 
+ /* Style the front side (fallback if image is missing) */
+ .flip-card-front1 {
+   background-color: #bbb;
+   color: black;
+ }
+ 
+ /* Style the back side */
+ .flip-card-back1 {
+   background-color: dodgerblue;
+   color: white;
+   transform: rotateY(180deg);
+ }
+
+
+
+
+ .flip-card2 {
+   background-color: transparent;
+   width: 300px;
+   height: 200px;
+   border: 5px solid #f1f1f1;
+   margin-top: -219px;
+   margin-left: -327px;
+   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+ }
+ 
+ /* This container is needed to position the front and back side */
+ .flip-card-inner2 {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+ }
+ 
+ /* Do an horizontal flip when you move the mouse over the flip box container */
+ .flip-card2:hover .flip-card-inner2 {
+   transform: rotateY(180deg);
+ }
+ 
+ /* Position the front and back side */
+ .flip-card-front2, .flip-card-back2 {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   -webkit-backface-visibility: hidden; /* Safari */
+   backface-visibility: hidden;
+ }
+ 
+ /* Style the front side (fallback if image is missing) */
+ .flip-card-front2 {
+   background-color: #bbb;
+   color: black;
+ }
+ 
+ /* Style the back side */
+ .flip-card-back2 {
+   background-color: dodgerblue;
+   color: white;
+   transform: rotateY(180deg);
+ }
+
+ .customer{
+    margin-top: -20px;
+    margin-left: -1177px;
+    margin-bottom: -141px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 10, 10);
+ }
+
+ .herb{
+    height: 15px;
+    width: 15px;
+    margin-top: -210px;
+    margin-left: -761px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+ }
+
+ .logohead{
+    margin-left: -750px;
+    margin-bottom: 8px;
+    margin-top: 107px;
+    color: rgb(253, 252, 252);
+    font-size: 21px;
+ }
+
+
+
+ /* Style all font awesome icons */
+.fa {
+   padding: 20px;
+   font-size: 80px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+ }
+ 
+ /* Add a hover effect if you want */
+ .fa:hover {
+   opacity: 0.7;
+ }
+ 
+ /* Set a specific color for each brand */
+ 
+ /* Facebook */
+ .fa-facebook {
+   background: #3B5998;
+   color: white;
+   margin-top: 160px;
+   margin-left: -746px;
+   margin-bottom: 8px;
+ }
+ /* Twitter */
+ .fa-twitter {
+   background: #55ACEE;
+   color: white;
+}
+.fa-whatsapp {
+  background: #e273dd;
+  color: white;
+}
